@@ -2,7 +2,7 @@
 C++ Master Learning Road Map
 
 
-## JD Case
+## JD Cases
 
 | | | |
 |--|--|--|
