@@ -94,12 +94,14 @@ C++ Master Learning Road Map
 ### Xavier
 
 <br>
+
 ## ☁️ 计算机网络
 
 ### [网络基础问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/网络基础问题合集.md)
 ### [HTTP问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/HTTP问题合集.md)
 
 <br>
+
 ## 📏 设计模式
 
 <br>
@@ -108,12 +110,17 @@ C++ Master Learning Road Map
 ### [MySQL问题合集.md](https://github.com/Jeloys/HelloWorld/blob/master/数据库/MySQL问题合集.md)
 
 <br>
+
 ## CI/CD
 ### .yaml
 
 <br>
 
 ## 📚 书籍
+
+![image](https://user-images.githubusercontent.com/29084184/140617018-db60fcb7-34dd-4657-9b3c-5c2aaddd8c4b.png)
+
+链接:https://github.com/Charmve/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)
 
 <br><br>
 
@@ -127,4 +134,5 @@ C++ Master Learning Road Map
 ## 参考
 
 [1] interview. https://github.com/huihut/interview
+
 [2] @Jeloys/HelloWorld. https://github.com/Jeloys/HelloWorld
