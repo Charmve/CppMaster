@@ -7,14 +7,15 @@ C++ Master Learning Road Map
 - [⭐️ JD Cases](-#JD-Cases)
 - [📦 STL](#-stl)
 - [💻 操作系统](#-操作系统)
-- [☁️ 计算机网络](#-计算机网络)
+- [☁️ 计算机网络](#%EF%B8%8F-计算机网络)
 - [💾 数据库](#-数据库)
 - [📏 设计模式](#-设计模式)
-- [⚙️ 链接装载库](#-链接装载库)
-- [📚 书籍]()
-- [👍 内推]()
+- [⚙️ 链接装载库](#%EF%B8%8F-编译链接与调试)
+- [🐳 容器化技术](#容器化技术)
+- [📚 书籍](#-书籍)
+- [👍 内推](https://www.nowcoder.com/discuss/786270)
 - [👬 贡献者]()
-- [📜 License]()
+- [📜 License](LICENSE)
 
 ----
 
@@ -52,11 +53,11 @@ C++ Master Learning Road Map
 #### I/O
 #### [内存管理](https://github.com/Jeloys/HelloWorld/blob/master/操作系统/内存管理问题合集.md)
 ##### 虚拟内存
-##### 共享内存
+##### [共享内存](https://blog.csdn.net/ypt523/article/details/79958188)
 #### [进程和线程](https://github.com/Jeloys/HelloWorld/blob/master/操作系统/进程与线程问题合集.md)
 ##### 多线程/线程池
 ##### 时间轮转片
-##### 
+##### 并行计算
 ##### [Socket问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/Socket问题合集.md)
 
 
@@ -70,13 +71,16 @@ C++ Master Learning Road Map
 - [目录挂载](https://blog.csdn.net/dear_little_bear/article/details/108474499)
 
 #### [vim](https://www.jianshu.com/p/fbb00627163c)
+
 #### git
+
 #### ⚙️ 编译、链接与调试
 - [链接问题合集](https://github.com/Jeloys/HelloWorld/blob/master/操作系统/链接问题合集.md)
 - [Cmake](https://www.hahack.com/codes/cmake/) - [Makefile](Makefile文件)，CMakeLists.txt
 - [GDB/CGDB](https://www.jianshu.com/p/8d0278ae7e07)
-- Cuda
-##### Shell/bash
+
+##### [Shell/bash](https://www.runoob.com/linux/linux-shell.html)
+
 ##### Bootloader
 
 ### RTOS/FreeRTOS
@@ -107,7 +111,11 @@ C++ Master Learning Road Map
 <br>
 
 ## 💾 数据库
+
+关系型与非关系型
+
 ### [MySQL问题合集.md](https://github.com/Jeloys/HelloWorld/blob/master/数据库/MySQL问题合集.md)
+### MongoDB
 
 <br>
 
