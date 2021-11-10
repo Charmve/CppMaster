@@ -76,7 +76,8 @@ C++ Master Learning Road Map
 
 #### ⚙️ 编译、链接与调试
 - [链接问题合集](https://github.com/Jeloys/HelloWorld/blob/master/操作系统/链接问题合集.md)
-- [Cmake](https://www.hahack.com/codes/cmake/) - [Makefile](Makefile文件)，CMakeLists.txt
+- [Cmake](https://www.hahack.com/codes/cmake/) - [Makefile](https://www.jianshu.com/p/442e71755643)，[CMakeLists.txt](https://blog.csdn.net/shaosunrise/article/details/121103842)
+  - [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
 - [GDB/CGDB](https://www.jianshu.com/p/8d0278ae7e07)
 
 ##### [Shell/bash](https://www.runoob.com/linux/linux-shell.html)
