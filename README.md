@@ -3,8 +3,8 @@ C++ Master Learning Road Map
 
 ### Table of Content
 
-- [➕ C/C++](#-c++)
 - [⭐️ JD Cases](-#JD-Cases)
+- [➕ C/C++](#-c++)
 - [📦 STL](#-stl)
 - [💻 操作系统](#-操作系统)
 - [☁️ 计算机网络](#%EF%B8%8F-计算机网络)
@@ -36,7 +36,7 @@ C++ Master Learning Road Map
 
 - [📦 STL](http://c.biancheng.net/stl/)，
 - 智能指针
-- shared_ptr 和 unique_ptr
+- [shared_ptr](https://blog.csdn.net/shaosunrise/article/details/85228823) 和 unique_ptr
 - auto
 - iterator 迭代器
 
@@ -76,6 +76,7 @@ C++ Master Learning Road Map
 
 #### ⚙️ 编译、链接与调试
 - [链接问题合集](https://github.com/Jeloys/HelloWorld/blob/master/操作系统/链接问题合集.md)
+  - [C语言调用so动态库的两种方式](https://blog.csdn.net/shaosunrise/article/details/81161064)
 - [Cmake](https://www.hahack.com/codes/cmake/) - [Makefile](https://www.jianshu.com/p/442e71755643)，[CMakeLists.txt](https://blog.csdn.net/shaosunrise/article/details/121103842)
   - [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
 - [GDB/CGDB](https://www.jianshu.com/p/8d0278ae7e07)
