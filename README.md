@@ -1,5 +1,44 @@
-# CppMaster
-C++ Master Learning Road Map
+🌍 English | [简体中文](README-zh_CN.md)| [日本語](README-jp_JP.md) | [Українською](README-uk_UA.md)
+<br>
+
+<div align="center">
+	<a href="https://charmve.github.io/L0CV-web">
+		<img src="https://github.com/Charmve/CppMaster/blob/main/src/header.svg" width="50%" alt="Click to see the more details">
+	</a>
+    <br>
+    <p>C++ Master Learning Roadmap</p>
+    <p align="center" alt="CircleCI">
+      <a href="https://circleci.com/gh/Charmve/CppMaster">
+        <img src="https://circleci.com/gh/Charmve/computer-vision-in-action.svg?style=svg" alt="CircleCI" title="CircleCI">
+      </a>
+      <a href="https://github.com/Charmve/vallox-api/actions">
+        <img alt="Actions Status" src="https://github.com/Charmve/CppMaster/workflows/CI/badge.svg">
+      </a>
+      <a href="https://standardjs.com">
+        <img alt="JavaScript Style Guide" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
+      </a>
+      <a href="https://dependabot.com">
+        <img alt="Dependabot Status" src="https://api.dependabot.com/badges/status?host=github&repo=danielbayerlein/dashboard">
+      </a>
+      <a href="https://deploy.now.sh/?repo=https://github.com/danielbayerlein/dashboard">
+        <img alt="Deploy to now" src="https://deploy.now.sh/static/button.svg" height="20">
+      </a>
+    </p>
+    <p align="center">
+        <a href="https://github.com/Charmve/CppMaster/tree/main/code">Quickstart</a> •
+        <a href="https://github.com/Charmve/CppMaster/tree/main/notebooks">Notebook</a> •
+        <a href="https://github.com/Charmve/CppMaster/issues">Community</a>  •
+        <a href="https://charmve.github.io/CppMaster/">Docs</a> 
+    </p>
+</div>
+
+
+----
+<b>Note: Please raise an issue for any suggestions, corrections, and feedback.</b>
+
+The goal of this repo is to buid a advanced C++ programing tech stack for a higher salary.
+
+<br>
 
 ### Table of Content
 
