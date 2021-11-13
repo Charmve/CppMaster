@@ -42,8 +42,8 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 ### Table of Content
 
-- [⭐️ JD Cases](-#JD-Cases)
-- [➕ C/C++](#-c++)
+- [⭐️ JD Cases](#%EF%B8%8F-jd-cases)
+- [➕ C/C++](#-c)
 - [📦 STL](#-stl)
 - [💻 操作系统](#-操作系统)
 - [☁️ 计算机网络](#%EF%B8%8F-计算机网络)
