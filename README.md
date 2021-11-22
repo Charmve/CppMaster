@@ -96,7 +96,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 #### [进程和线程](https://github.com/Jeloys/HelloWorld/blob/master/操作系统/进程与线程问题合集.md)
 ##### 多线程/线程池
 ##### 时间轮转片
-##### 并行计算
+##### 并行计算 GPU/NPU 
 ##### [Socket问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/Socket问题合集.md)
 
 
@@ -137,6 +137,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 ### ARM x86
 
 ### Xavier
+- [CUDA编程之快速入门](https://www.cnblogs.com/skyfsm/p/9673960.html)
 
 <br>
 
@@ -148,6 +149,8 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 <br>
 
 ## 📏 设计模式
+- [OOP设计和设计模式](https://blog.csdn.net/weixin_45748233/article/details/106808059)
+-
 
 <br>
 
