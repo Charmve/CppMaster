@@ -81,6 +81,9 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 <br>
 
+## 高性能优化
+- [profiling](https://zhuanlan.zhihu.com/p/362575905)
+
 
 <br>
 
@@ -97,6 +100,8 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 ##### 多线程/线程池
 ##### 时间轮转片
 ##### 并行计算 GPU/NPU 
+- [OpenCL & Cuda]()
+- 
 ##### [Socket问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/Socket问题合集.md)
 
 
@@ -119,6 +124,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 - [Cmake](https://www.hahack.com/codes/cmake/) - [Makefile](https://www.jianshu.com/p/442e71755643)，[CMakeLists.txt](https://blog.csdn.net/shaosunrise/article/details/121103842)
   - [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
 - [GDB/CGDB](https://www.jianshu.com/p/8d0278ae7e07)
+- [gtest](https://blog.csdn.net/linhai1028/article/details/81675724)
 
 ##### [Shell/bash](https://www.runoob.com/linux/linux-shell.html)
 
@@ -159,7 +165,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 关系型与非关系型
 
 ### [MySQL问题合集.md](https://github.com/Jeloys/HelloWorld/blob/master/数据库/MySQL问题合集.md)
-### MongoDB
+### [MongoDB](https://www.runoob.com/mongodb/mongodb-tutorial.html)
 
 <br>
 
