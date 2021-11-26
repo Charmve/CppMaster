@@ -74,10 +74,14 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 ## ➕ C++
 
 - [📦 STL](http://c.biancheng.net/stl/)，
-- 智能指针
+- 智能指针:shared_ptr 和 unique_ptr
 - [shared_ptr](https://blog.csdn.net/shaosunrise/article/details/85228823) 和 unique_ptr
 - auto
 - iterator 迭代器
+- [set\map机制](https://blog.csdn.net/solstice/article/details/8521946)
+- vector机制
+- 红黑树
+- B B+树
 
 <br>
 
