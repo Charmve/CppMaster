@@ -8,20 +8,20 @@
     <br>
     <p>C++ Master Learning Roadmap</p>
     <p align="center" alt="CircleCI">
-      <a href="https://circleci.com/gh/Charmve/CppMaster">
-        <img src="https://circleci.com/gh/Charmve/computer-vision-in-action.svg?style=svg" alt="CircleCI" title="CircleCI">
+      <a href="">
+        <img alt="Actions Status" src="https://github.com/danielbayerlein/dashboard/workflows/CI/badge.svg">
       </a>
-      <a href="https://github.com/Charmve/vallox-api/actions">
-        <img alt="Actions Status" src="https://github.com/Charmve/CppMaster/workflows/CI/badge.svg">
+      <a href="">
+        <img src="https://img.shields.io/badge/maf-v2.2-000000.svg?color=blue" alt="maf version">
       </a>
-      <a href="https://standardjs.com">
-        <img alt="JavaScript Style Guide" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
+      <a href="https://google.github.io/styleguide/cppguide.html">
+        <img alt="Cpp Style Guide" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
       </a>
-      <a href="https://dependabot.com">
-        <img alt="Dependabot Status" src="https://api.dependabot.com/badges/status?host=github&repo=danielbayerlein/dashboard">
+      <a href="https://confluence.momenta.works/pages/viewpage.action?pageId=157516066">
+        <img alt="Docs Released" src="https://img.shields.io/badge/docs-released-green.svg">
       </a>
-      <a href="https://deploy.now.sh/?repo=https://github.com/danielbayerlein/dashboard">
-        <img alt="Deploy to now" src="https://deploy.now.sh/static/button.svg" height="20">
+      <a href="">
+        <img alt="Dependencies" src="https://img.shields.io/badge/dependencies-up%20to%20date-red.svg">
       </a>
     </p>
     <p align="center">
