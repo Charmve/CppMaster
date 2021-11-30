@@ -11,8 +11,8 @@
       <a href="">
         <img alt="Actions Status" src="https://github.com/danielbayerlein/dashboard/workflows/CI/badge.svg">
       </a>
-      <a href="">
-        <img src="https://img.shields.io/badge/maf-v2.2-000000.svg?color=blue" alt="maf version">
+      <a href="https://codecov.io/github/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test_gcov?branch=master">
+        <img src="https://codecov.io/github/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test_gcov/coverage.svg?branch=master" alt="codecov.io">
       </a>
       <a href="https://google.github.io/styleguide/cppguide.html">
         <img alt="Cpp Style Guide" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
