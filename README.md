@@ -2,8 +2,13 @@
 <br>
 
 <div align="center">
+  <!--
 	<a href="https://charmve.github.io/L0CV-web">
 		<img src="https://github.com/Charmve/CppMaster/blob/main/src/header.svg" width="50%" alt="Click to see the more details">
+	</a>
+  -->
+  <a href="https://charmve.github.io/L0CV-web">
+		<img src="src/one-logo.jpg" width="48%" alt="Click to see the more details">
 	</a>
     <br>
     <p>C++ Master Learning Roadmap</p>
