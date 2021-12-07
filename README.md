@@ -8,7 +8,7 @@
 	</a>
   -->
   <a href="https://charmve.github.io/L0CV-web">
-		<img src="src/one-logo.jpg" width="48%" alt="Click to see the more details">
+		<img src="src/one-logo.jpg" width="36%" alt="Click to see the more details">
 	</a>
     <br>
     <p>C++ Master Learning Roadmap</p>
@@ -79,6 +79,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 |![](/src/imgs/嵌入式软件工程师-百度.jpg) |![](/src/imgs/嵌入式软件开发工程师-蔚来.jpg) |![](/src/imgs/智能驾驶软件开发工程师-蔚来.jpg) |
 |![](/src/imgs/高级嵌入式开发工程师-小马智行.jpg) |![](/src/imgs/高精度定位融合-腾讯.jpg) |  |
 
+[Index](#table-of-content)
 
 <br>
 
@@ -231,38 +232,60 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 > 参考书籍：《C++ Primer》（第5版）、《STL源码剖析》、
 
+[Index](#table-of-content)
+
 <br>
 
 ## 高性能优化
 - [profiling](https://zhuanlan.zhihu.com/p/362575905)
 
+[Index](#table-of-content)
 
 <br>
 
 ## 💻 操作系统
 
 1、进程与线程区别
+
 2、线程同步的方式：互斥锁、自旋锁、读写锁、条件变量
+
 3、互斥锁与自旋锁的底层区别
+
 4、孤儿进程与僵尸进程
+
 5、死锁及避免
+
 6、多线程与多进程比较
+
 7、进程间通信：PIPE、FIFO、消息队列、信号量、共享内存、socket
+
 8、管道与消息队列对比
+
 9、fork进程的底层：读时共享，写时复制
+
 10、线程上下文切换的流程
+
 11、进程上下文切换的流程
+
 12、进程的调度算法
+
 13、阻塞IO与非阻塞IO
+
 14、同步与异步的概念
+
 15、静态链接与动态链接的过程
+
 16、虚拟内存概念（非常重要）
+
 17、MMU地址翻译的具体流程
+
 18、缺页处理过程
+
 19、缺页置换算法：最久未使用算法、先进先出算法、最佳置换算法
 
 > 参考书籍：《Unix环境高级编程》、《Linux多线程服务器端编程》
 
+[Index](#table-of-content)
 
 #### 文件系统
 
@@ -308,13 +331,17 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 ### [ROS](http://wiki.ros.org/cn/ROS/Tutorials)
 
-### QNX
+### [QNX](https://blackberry.qnx.com/en)
+
+[Index](#table-of-content)
 
 ### 容器化技术
 - [Docker](https://vuepress.mirror.docker-practice.com/)
 - K8S
 
 ### ARM x86
+
+[Index](#table-of-content)
 
 ### Xavier
 - [CUDA编程之快速入门](https://www.cnblogs.com/skyfsm/p/9673960.html)
@@ -326,7 +353,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 ### [网络基础问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/网络基础问题合集.md)
 ### [HTTP问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/HTTP问题合集.md)
 
-
+[Index](#table-of-content)
 
 <br>
 
@@ -335,23 +362,32 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两个部分：
 
 1、进程间通信方式：信号量、管道、共享内存、socket 等
+
 2、多线程编程：互斥锁、条件变量、读写锁、线程池等
+
 3、五大 IO 模型：同步、异步、阻塞、非阻塞、信号驱动 区别/联系
+
 4、线程池
+
 5、高性能 IO 两种模式：Reactor 和 Proactor（ 但是 Linux 下由于缺少异步 IO 支持，基本没有 Proactor)
 
 6、IO多路复用：select、poll、epoll的区别（非常重要，几乎必问，回答得越底层越好，要会使用）
+
 7、手撕一个最简单的server端服务器（socket、bind、listen、accept这四个API一定要非常熟练）
+
 8、边沿触发与水平触发的区别
 
 
 > 参考书籍：《Unix网络编程》
+
+[Index](#table-of-content)
 
 <br>
 
 ## 📏 设计模式
 - [OOP设计和设计模式](https://blog.csdn.net/weixin_45748233/article/details/106808059)
 -
+[Index](#table-of-content)
 
 <br>
 
@@ -364,8 +400,12 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 <br>
 
+[Index](#table-of-content)
+
 ## CI/CD
 ### .yaml
+
+[Index](#table-of-content)
 
 <br>
 
@@ -376,6 +416,8 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 链接:https://github.com/Charmve/PaperWeeklyAI/tree/master/00_GuideBooksPDF(English%2BChinese)
 
 > 更多免费电子书，<b>公众号：迈微AI研习社</b>回复 ``“电子书”`` ，可免费获取。
+
+[Index](#table-of-content)
 
 <br><br>
 
@@ -391,7 +433,9 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 7. 有高并发服务设计和实现经验、对分布式系统，微服务有深刻的了解，有良好的可靠性意识，包括不限于监控，容灾等
 8. 有良好的业务抽象能力和业务建模能力
 
-<br><a href="https://github.com/Charmve/computer-vision-in-action#-以用促学先会后懂-"><img align="right" alt="Go for it!" src="https://raw.githubusercontent.com/Charmve/computer-vision-in-action/dd292873828228a753a9bd2de4576dbf8cc3902c/res/ui/footer-rocket.svg" height="220" title="Do what you like, and do it best!"/></a>
+[Index](#table-of-content)
+
+<br><a href="https://github.com/Charmve/CppMaster#table-of-content"><img align="right" alt="Go for it!" src="https://raw.githubusercontent.com/Charmve/computer-vision-in-action/dd292873828228a753a9bd2de4576dbf8cc3902c/res/ui/footer-rocket.svg" height="220" title="Do what you like, and do it best!"/></a>
 
 ## 参考
 
