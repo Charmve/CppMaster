@@ -304,7 +304,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 ### Linux
 
-- [信号 signal()]()
+- [信号 signal](https://blog.csdn.net/qq_27085429/article/details/95041443)
 - [常用命令](https://www.jianshu.com/p/73556e1a1236)
 - 环境变量
 - 动态链接/静态链接
@@ -325,7 +325,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 ##### [Shell/bash](https://www.runoob.com/linux/linux-shell.html)
 
-##### Bootloader
+##### Bootloader/Uboot/buildboot
 
 ### RTOS/FreeRTOS
 
@@ -350,8 +350,8 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 ## ☁️ 计算机网络
 
-### [网络基础问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/网络基础问题合集.md)
-### [HTTP问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/HTTP问题合集.md)
+#### [网络基础问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/网络基础问题合集.md)
+#### [HTTP问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/HTTP问题合集.md)
 
 [Index](#table-of-content)
 
@@ -395,8 +395,8 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 关系型与非关系型
 
-### [MySQL问题合集.md](https://github.com/Jeloys/HelloWorld/blob/master/数据库/MySQL问题合集.md)
-### [MongoDB](https://www.runoob.com/mongodb/mongodb-tutorial.html)
+#### [MySQL问题合集.md](https://github.com/Jeloys/HelloWorld/blob/master/数据库/MySQL问题合集.md)
+#### [MongoDB](https://www.runoob.com/mongodb/mongodb-tutorial.html)
 
 <br>
 
