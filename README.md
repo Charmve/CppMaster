@@ -238,6 +238,16 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 ## 高性能优化
 - [profiling](https://zhuanlan.zhihu.com/p/362575905)
+- 掌握多线程优化方法，熟悉基本的资源调度方法；
+
+### Xavier
+- [CUDA编程之快速入门](https://www.cnblogs.com/skyfsm/p/9673960.html)
+
+## 高性能计算
+
+- CUDA并行编程模型及常用优化方法，熟悉基于TensorRT编程方法；
+- 熟练掌握CUDA程序性能分析、问题定位及调试的能力，掌握对应CUDA工具的使用；
+- 熟悉PTX/SASS，有编译优化经验；
 
 [Index](#table-of-content)
 
@@ -342,9 +352,6 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 ### ARM x86
 
 [Index](#table-of-content)
-
-### Xavier
-- [CUDA编程之快速入门](https://www.cnblogs.com/skyfsm/p/9673960.html)
 
 <br>
 
