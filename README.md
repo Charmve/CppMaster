@@ -237,7 +237,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 <br>
 
 ## 高性能优化
-- [profiling](https://zhuanlan.zhihu.com/p/362575905)
+- 分析工具 gpertool、[profiling](https://zhuanlan.zhihu.com/p/362575905)
 - 掌握多线程优化方法，熟悉基本的资源调度方法；
 
 ### Xavier
@@ -245,9 +245,9 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 ## 高性能计算
 
-- CUDA并行编程模型及常用优化方法，熟悉基于TensorRT编程方法；
-- 熟练掌握CUDA程序性能分析、问题定位及调试的能力，掌握对应CUDA工具的使用；
-- 熟悉PTX/SASS，有编译优化经验；
+- CUDA 并行编程模型及常用优化方法，熟悉基于 TensorRT 编程方法；
+- 熟练掌握CUDA程序性能分析、问题定位及调试的能力，掌握对应 CUDA 工具的使用；
+- 熟悉 PTX/SASS，有编译优化经验；
 
 [Index](#table-of-content)
 
@@ -355,6 +355,19 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 <br>
 
+### 虚拟化技术
+- [Qemu]()
+- KVM
+- Hypervisor
+
+[Index](#table-of-content)
+
+<br>
+
+### 缓存/并发技术
+
+- [Kafka](https://zhuanlan.zhihu.com/p/446774729)
+
 ## ☁️ 计算机网络
 
 #### [网络基础问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/网络基础问题合集.md)
@@ -443,6 +456,11 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 [Index](#table-of-content)
 
 <br><a href="https://github.com/Charmve/CppMaster#table-of-content"><img align="right" alt="Go for it!" src="https://raw.githubusercontent.com/Charmve/computer-vision-in-action/dd292873828228a753a9bd2de4576dbf8cc3902c/res/ui/footer-rocket.svg" height="220" title="Do what you like, and do it best!"/></a>
+
+
+## C++ 面经
+
+- [如果你是一个C++面试官，你会问哪些问题？](https://www.zhihu.com/question/451327108/answer/2359217596)
 
 ## 参考
 
