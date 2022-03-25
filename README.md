@@ -51,17 +51,33 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 <br><a href=""><img align="right" alt="Go for it!" src="src/i_magic_box.png" height="260" title="Do what you like, and do it best!"/></a>
 
+
+<b><details><summary>💡 关于</summary></b>
+
+📚 本仓库是面向 C/C++ 技术方向校招求职者、初学者的基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。
+
+💡 侧边目录支持方式：[📚 Docsify 文档](https://charmve.github.io/CppMaster/)、[Github + TOC 导航](https://github.com/jawil/GayHub)（[TOC预览.png](https://gitee.com/huihut/interview/raw/master/images/TOC预览.png)）
+
+📄 保存为 PDF 方式：使用 Chrome 浏览器打开 <a href="https://charmve.github.io/CppMaster/">📚 Docsify 文档</a> 页面，缩起左侧目录-右键 - 打印 - 选择目标打印机是另存为PDF - 保存（[打印预览.png](https://gitee.com/huihut/interview/raw/master/images/打印预览.png)）
+
+🙏 仓库内容如有错误或改进欢迎 issue 或 pr。由于本人水平有限，仓库中的知识点有来自本人原创、读书笔记、书籍、博文等，非原创均已标明出处，如有遗漏，请 issue 提出。本仓库遵循 [CC BY-NC-SA 4.0（署名 - 非商业性使用 - 相同方式共享）](https://github.com/huihut/interview/blob/master/LICENSE) 协议，转载请注明出处，不得用于商业目的。
+
+</details>
+
+
 ### Table of Content
 
 - [⭐️ JD Cases](#%EF%B8%8F-jd-cases)
 - [➕ C/C++](#-c)
-- [📦 STL](#-stl)
+  - [📦 STL](#-stl)
+  - [⚙️ 链接装载库](#%EF%B8%8F-编译链接与调试)
 - [💻 操作系统](#-操作系统)
 - [☁️ 计算机网络](#%EF%B8%8F-计算机网络)
 - [💾 数据库](#-数据库)
 - [📏 设计模式](#-设计模式)
-- [⚙️ 链接装载库](#%EF%B8%8F-编译链接与调试)
 - [🐳 容器化技术](#容器化技术)
+- [🔱 C/C++ 发展方向](#cc-development-direction)
+- [📝 面试题目经验](#interview-questions-experience)
 - [📚 书籍](#-书籍)
 - [👍 内推](https://www.nowcoder.com/discuss/786270)
 - [👬 贡献者]()
@@ -85,6 +101,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 ## ➕ C++
 
+问题列表，详细解答可参考: [docs/C++面经汇总](docs/C++面经汇总/basic_cpp.md)
 
 1、面向对象的三大特性：封装、继承、多态
 
@@ -404,14 +421,14 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 <br>
 
-## 📏 设计模式
+## 📏 [设计模式](./code/DesignPattern)
 - [OOP设计和设计模式](https://blog.csdn.net/weixin_45748233/article/details/106808059)
 -
 [Index](#table-of-content)
 
 <br>
 
-## 💾 数据库
+## 💾 [数据库](./docs/数据库)
 
 关系型与非关系型
 
@@ -429,7 +446,11 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 <br>
 
-## 📚 书籍
+
+<a id="interview-questions-experience"></a>
+
+
+## 📚 [书籍](./FreeEBooks)
 
 ![image](https://user-images.githubusercontent.com/29084184/140617018-db60fcb7-34dd-4657-9b3c-5c2aaddd8c4b.png)
 
@@ -458,7 +479,98 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 <br><a href="https://github.com/Charmve/CppMaster#table-of-content"><img align="right" alt="Go for it!" src="https://raw.githubusercontent.com/Charmve/computer-vision-in-action/dd292873828228a753a9bd2de4576dbf8cc3902c/res/ui/footer-rocket.svg" height="220" title="Do what you like, and do it best!"/></a>
 
 
-## C++ 面经
+<a id="cc-development-direction"></a>
+
+## 🔱 C/C++ 发展方向
+
+> C/C++ 发展方向甚广，包括不限于以下方向， 以下列举一些大厂校招岗位要求。
+
+### 后台/服务器
+
+【后台开发】
+
+* 编程基本功扎实，掌握 C/C++/JAVA 等开发语言、常用算法和数据结构；
+* 熟悉 TCP/UDP 网络协议及相关编程、进程间通讯编程；
+* 了解 Python、Shell、Perl 等脚本语言；
+* 了解 MYSQL 及 SQL 语言、编程，了解 NoSQL, key-value 存储原理；
+* 全面、扎实的软件知识结构，掌握操作系统、软件工程、设计模式、数据结构、数据库系统、网络安全等专业知识；
+* 了解分布式系统设计与开发、负载均衡技术，系统容灾设计，高可用系统等知识。
+
+### 桌面客户端
+
+【PC 客户端开发】
+
+* 计算机软件相关专业本科或以上学历，热爱编程，基础扎实，理解算法和数据结构相关知识；  
+* 熟悉 windows 操作系统的内存管理、文件系统、进程线程调度； 
+* 熟悉 MFC/windows 界面实现机制，熟练使用 VC，精通 C/C++，熟练使用 STL，以及 Windows 下网络编程经验；
+* 熟练掌握 Windows 客户端开发、调试，有 Windows 应用软件开发经验优先；
+* 对于创新及解决具有挑战性的问题充满激情，具有良好的算法基础及系统分析能力。
+
+### 图形学/游戏/VR/AR
+
+【游戏客户端开发】
+
+* 计算机科学/工程相关专业本科或以上学历，热爱编程，基础扎实，理解算法、数据结构、软件设计相关知识；
+* 至少掌握一种游戏开发常用的编程语言，具 C++/C# 编程经验优先；
+* 具游戏引擎（如 Unity、Unreal）使用经验者优先；
+* 了解某方面的游戏客户端技术（如图形、音频、动画、物理、人工智能、网络同步）者优先考虑；
+* 对于创新及解决具有挑战性的问题充满激情，有较强的学习能力、分析及解决问题能力，具备良好的团队合作意识；
+* 具阅读英文技术文档能力；
+* 热爱游戏。
+
+### 测试开发
+
+【测试开发】
+
+* 计算机或相关专业本科及以上学历；
+* 一至两年的 C/C++/Python 或其他计算机语言的编程经验；
+* 具备撰写测试计划、测试用例、以及实现性能和安全等测试的能力；
+* 具备实现自动化系统的能力；
+* 具备定位调查产品缺陷能力、以及代码级别调试缺陷的能力；
+* 工作主动积极，有责任心，具有良好的团队合作精神。
+
+### 网络安全/逆向
+
+【安全技术】
+
+* 热爱互联网，对操作系统和网络安全有狂热的追求，专业不限；
+* 熟悉漏洞挖掘、网络安全攻防技术，了解常见黑客攻击手法；  
+* 掌握基本开发能力，熟练使用 C/C++ 语言；
+* 对数据库、操作系统、网络原理有较好掌握；  
+* 具有软件逆向，网络安全攻防或安全系统开发经验者优先。
+
+### 嵌入式/物联网
+
+【嵌入式应用开发】
+
+* 有良好的编程基础，熟练掌握 C/C++ 语言；
+* 掌握操作系统、数据结构等软件开发必备知识；
+* 具备较强的沟通理解能力及良好的团队合作意识；
+* 有 Linux/Android 系统平台的开发经验者优先。
+
+### 音视频/流媒体/SDK
+
+【音视频编解码】
+
+1. 硕士及以上学历，计算机、信号处理、数学、信息类及相关专业和方向； 
+2. 视频编解码基础扎实，熟常用的 HEVC 或 H264，有较好的数字信号处理基础； 
+3. 掌握 C/C++，代码能力强, 熟悉一种汇编语言尤佳； 
+4. 较强的英文文献阅读能力； 
+5. 学习能力强，具有团队协作精神，有较强的抗压能力。
+
+### 计算机视觉/机器学习
+
+【计算机视觉研究】
+
+* 计算机、应用数学、模式识别、人工智能、自控、统计学、运筹学、生物信息、物理学/量子计算、神经科学、社会学/心理学等专业，图像处理、模式识别、机器学习相关研究方向，本科及以上，博士优先；
+* 熟练掌握计算机视觉和图像处理相关的基本算法及应用；
+* 较强的算法实现能力，熟练掌握 C/C++ 编程，熟悉 Shell/Python/Matlab 至少一种编程语言；
+* 在计算机视觉、模式识别等学术会议或者期刊上发表论文、相关国际比赛获奖、及有相关专利者优先。
+
+
+## 📝 面试题目经验
+
+- [docs/C++面经汇总](docs/C++面经汇总/basic_cpp.md)
 
 - [如果你是一个C++面试官，你会问哪些问题？](https://www.zhihu.com/question/451327108/answer/2359217596)
 - 我的专栏 [大厂后端/算法面经分类整理](https://blog.csdn.net/charmve/category_9622929.html)
