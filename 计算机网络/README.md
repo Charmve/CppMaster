@@ -6,6 +6,14 @@
 
 ![计算机网络体系结构](https://gitee.com/huihut/interview/raw/master/images/计算机网络体系结构.png)
 
+
+**通用通信体系架构**
+|BLE| 802.11 | MIPI DSI|
+|---|---|---|
+|![BLE协议栈](https://user-images.githubusercontent.com/29084184/171321337-108b248b-acf6-46f6-8040-812d63f6187c.png) | ![IEEE 802.11 协议栈](https://user-images.githubusercontent.com/29084184/171321237-dc968694-1b65-4574-abda-467ff0079f6e.png) | ![image](https://user-images.githubusercontent.com/29084184/171321003-e2473b4c-c61f-4f5a-b9a2-0bd88e9fbe01.png)|
+
+<br>
+
 ### 各层作用及协议
 
 分层 | 作用 | 协议
@@ -188,7 +196,7 @@ TCP：状态控制码（Code，Control Flag），占 6 比特，含义如下：
 
 UDP 报文结构
 
-![UDP 报文]([https://gitee.com/huihut/interview/raw/master/images/UDP报文.png](https://user-images.githubusercontent.com/29084184/171321622-20fc4cf8-2e55-420a-be4f-3029652d8016.png))
+![UDP 报文](https://user-images.githubusercontent.com/29084184/171321622-20fc4cf8-2e55-420a-be4f-3029652d8016.png)
 
 UDP 首部
 
