@@ -4,7 +4,7 @@
 
 计算机网络体系结构：
 
-![计算机网络体系结构](https://gitee.com/huihut/interview/raw/master/images/计算机网络体系结构.png)
+![计算机网络体系结构](https://user-images.githubusercontent.com/29084184/171322087-ba7a343f-e14d-417a-bf26-813b814f5914.png)
 
 
 **通用通信体系架构**
