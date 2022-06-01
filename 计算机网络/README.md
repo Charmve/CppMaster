@@ -163,7 +163,8 @@ TCP 报文结构
 
 TCP 首部
 
-![TCP 首部](https://gitee.com/huihut/interview/raw/master/images/TCP首部.png)
+![TCP 首部](https://user-images.githubusercontent.com/29084184/171321589-c03a2b49-2ef8-4177-9cf9-5671d69da467.png)
+
 
 TCP：状态控制码（Code，Control Flag），占 6 比特，含义如下：
 * URG：紧急比特（urgent），当 `URG＝1` 时，表明紧急指针字段有效，代表该封包为紧急封包。它告诉系统此报文段中有紧急数据，应尽快传送(相当于高优先级的数据)， 且上图中的 Urgent Pointer 字段也会被启用。
@@ -187,7 +188,7 @@ TCP：状态控制码（Code，Control Flag），占 6 比特，含义如下：
 
 UDP 报文结构
 
-![UDP 报文](https://gitee.com/huihut/interview/raw/master/images/UDP报文.png)
+![UDP 报文]([https://gitee.com/huihut/interview/raw/master/images/UDP报文.png](https://user-images.githubusercontent.com/29084184/171321622-20fc4cf8-2e55-420a-be4f-3029652d8016.png))
 
 UDP 首部
 
@@ -228,7 +229,8 @@ TCP 是一个基于字节流的传输服务（UDP 基于报文的），“流”
 
 利用可变窗口进行流量控制
 
-![](https://gitee.com/huihut/interview/raw/master/images/利用可变窗口进行流量控制举例.png)
+![利用可变窗口进行流量控制](https://user-images.githubusercontent.com/29084184/171321711-ec3356ab-3f19-495e-b516-b53f17413910.png)
+
 
 #### TCP 拥塞控制
 
@@ -246,8 +248,9 @@ TCP 是一个基于字节流的传输服务（UDP 基于报文的），“流”
 TCP的拥塞控制图
 
 ![](https://gitee.com/huihut/interview/raw/master/images/TCP拥塞窗口cwnd在拥塞控制时的变化情况.png)
-![](https://gitee.com/huihut/interview/raw/master/images/快重传示意图.png)
-![](https://gitee.com/huihut/interview/raw/master/images/TCP的拥塞控制流程图.png)
+![快重传示意图](https://gitee.com/huihut/interview/raw/master/images/快重传示意图.png)
+![TCP的拥塞控制流程图](https://user-images.githubusercontent.com/29084184/171321782-f2ac4f33-1ada-4125-9c5d-0304eab803f9.png)
+
 
 #### TCP 传输连接管理
 
