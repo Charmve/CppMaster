@@ -22,7 +22,7 @@
       <a href="https://google.github.io/styleguide/cppguide.html">
         <img alt="Cpp Style Guide" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
       </a>
-      <a href="https://confluence.momenta.works/pages/viewpage.action?pageId=157516066">
+      <a href="">
         <img alt="Docs Released" src="https://img.shields.io/badge/docs-released-green.svg">
       </a>
       <a href="">
@@ -101,7 +101,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 ## ➕ C++
 
-问题列表，详细解答可参考: [docs/C++面经汇总](docs/C++面经汇总/basic_cpp.md)
+问题列表，详细解答可参考: [C++面经汇总](./C++面经汇总/basic_cpp.md)
 
 1、面向对象的三大特性：封装、继承、多态
 
@@ -253,6 +253,8 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 <br>
 
+<a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
+
 ## 高性能优化
 - 分析工具 gpertool、[profiling](https://zhuanlan.zhihu.com/p/362575905)
 - 掌握多线程优化方法，熟悉基本的资源调度方法；
@@ -317,16 +319,16 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 #### 文件系统
 
 #### I/O
-#### [内存管理](https://github.com/Jeloys/HelloWorld/blob/master/操作系统/内存管理问题合集.md)
+#### [内存管理](https://github.com/Charmve/CppMaster/blob/master/操作系统/内存管理问题合集.md)
 ##### 虚拟内存
 ##### [共享内存](https://blog.csdn.net/ypt523/article/details/79958188)
-#### [进程和线程](https://github.com/Jeloys/HelloWorld/blob/master/操作系统/进程与线程问题合集.md)
+#### [进程和线程](https://github.com/Charmve/CppMaster/blob/master/操作系统/进程与线程问题合集.md)
 ##### 多线程/线程池
 ##### 时间轮转片
 ##### 并行计算 GPU/NPU 
 - [OpenCL & Cuda]()
 - 
-##### [Socket问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/Socket问题合集.md)
+##### [Socket问题合集](https://github.com/Charmve/CppMaster/blob/master/计算机网络/Socket问题合集.md)
 
 
 ### Linux
@@ -343,7 +345,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 #### git
 
 #### ⚙️ 编译、链接与调试
-- [链接问题合集](https://github.com/Jeloys/HelloWorld/blob/master/操作系统/链接问题合集.md)
+- [链接问题合集](https://github.com/Charmve/CppMaster/blob/master/操作系统/链接问题合集.md)
   - [C语言调用so动态库的两种方式](https://blog.csdn.net/shaosunrise/article/details/81161064)
 - [Cmake](https://www.hahack.com/codes/cmake/) - [Makefile](https://www.jianshu.com/p/442e71755643)，[CMakeLists.txt](https://blog.csdn.net/shaosunrise/article/details/121103842)
   - [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
@@ -387,8 +389,8 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 ## ☁️ 计算机网络
 
-#### [网络基础问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/网络基础问题合集.md)
-#### [HTTP问题合集](https://github.com/Jeloys/HelloWorld/blob/master/网络/HTTP问题合集.md)
+#### [网络基础问题合集](https://github.com/Charmve/CppMaster/blob/master/网络/网络基础问题合集.md)
+#### [HTTP问题合集](https://github.com/Charmve/CppMaster/blob/master/网络/HTTP问题合集.md)
 
 [Index](#table-of-content)
 
@@ -428,11 +430,13 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 <br>
 
-## 💾 [数据库](./docs/数据库)
+<a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
+
+## 💾 [数据库](./数据库)
 
 关系型与非关系型
 
-#### [MySQL问题合集.md](https://github.com/Jeloys/HelloWorld/blob/master/数据库/MySQL问题合集.md)
+#### [MySQL问题合集.md](https://github.com/Charmve/CppMaster/blob/master/数据库/MySQL问题合集.md)
 #### [MongoDB](https://www.runoob.com/mongodb/mongodb-tutorial.html)
 
 <br>
@@ -478,6 +482,7 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 <br><a href="https://github.com/Charmve/CppMaster#table-of-content"><img align="right" alt="Go for it!" src="https://raw.githubusercontent.com/Charmve/computer-vision-in-action/dd292873828228a753a9bd2de4576dbf8cc3902c/res/ui/footer-rocket.svg" height="220" title="Do what you like, and do it best!"/></a>
 
+<a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
 
 <a id="cc-development-direction"></a>
 
@@ -570,7 +575,7 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 ## 📝 面试题目经验
 
-- [docs/C++面经汇总](docs/C++面经汇总/basic_cpp.md)
+- [docs/C++面经汇总](./C++面经汇总/basic_cpp.md)
 
 - [如果你是一个C++面试官，你会问哪些问题？](https://www.zhihu.com/question/451327108/answer/2359217596)
 - 我的专栏 [大厂后端/算法面经分类整理](https://blog.csdn.net/charmve/category_9622929.html)
