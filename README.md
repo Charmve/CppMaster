@@ -251,9 +251,9 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 [Index](#table-of-content)
 
-<br>
-
 <a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
+
+<br>
 
 ## 高性能优化
 - 分析工具 gpertool、[profiling](https://zhuanlan.zhihu.com/p/362575905)
@@ -421,6 +421,8 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 [Index](#table-of-content)
 
+<a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
+
 <br>
 
 ## 📏 [设计模式](./code/DesignPattern)
@@ -428,9 +430,9 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 -
 [Index](#table-of-content)
 
-<br>
-
 <a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
+
+<br>
 
 ## 💾 [数据库](./数据库)
 
@@ -448,8 +450,9 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 [Index](#table-of-content)
 
-<br>
+<a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
 
+<br>
 
 <a id="interview-questions-experience"></a>
 
@@ -480,9 +483,9 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 [Index](#table-of-content)
 
-<br><a href="https://github.com/Charmve/CppMaster#table-of-content"><img align="right" alt="Go for it!" src="https://raw.githubusercontent.com/Charmve/computer-vision-in-action/dd292873828228a753a9bd2de4576dbf8cc3902c/res/ui/footer-rocket.svg" height="220" title="Do what you like, and do it best!"/></a>
-
 <a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
+
+<br><a href="https://github.com/Charmve/CppMaster#table-of-content"><img align="right" alt="Go for it!" src="https://raw.githubusercontent.com/Charmve/computer-vision-in-action/dd292873828228a753a9bd2de4576dbf8cc3902c/res/ui/footer-rocket.svg" height="220" title="Do what you like, and do it best!"/></a>
 
 <a id="cc-development-direction"></a>
 
@@ -591,20 +594,22 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 进群获取互联网大厂高频coding题库，告别刷题400道，分类整理的题库，算法思路和源代码实现配套，各个类型总结出来的解题模板，远比你一个人要强！
 
-<img src="./src/imgs/../../../../../../../../src/imgs/Top100.png" width="" alt="Click to see the more details">
-
-<img src="./src/imgs/../../../../../../../../src/imgs/解题模板.png" width="" alt="Click to see the more details">
-
-<img src="./src/imgs/../../../../../../../../src/imgs/Microsoft_Top100.png" width="" alt="Click to see the more details">
-
 <div align="center">
+  <!---
   <a href="https://github.com/Charmve/CppMaster">
 	<img src="https://github.com/Charmve/CppMaster/blob/main/src/header.svg" width="50%" alt="Click to see the more details">
   </a> <br>
+  -->
   <a href="https://charmve.github.io/CppMaster/src/maiwei-planet.jpg">
 	<img src="https://github.com/Charmve/CppMaster/blob/main/src/maiwei-planet.jpg" width="36%" alt="Click to see the more details">
   </a>
 </div>
+
+<img src="./src/imgs/Top100.png" width="" alt="Click to see the more details">
+
+<img src="./src/imgs/解题模板.png" width="" alt="Click to see the more details">
+
+<img src="./src/imgs/Microsoft_Top100.png" width="" alt="Click to see the more details">
 
 
 ## 参考
