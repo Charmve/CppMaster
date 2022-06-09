@@ -389,8 +389,8 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 ## ☁️ 计算机网络
 
-#### [网络基础问题合集](https://github.com/Charmve/CppMaster/blob/master/网络/网络基础问题合集.md)
-#### [HTTP问题合集](https://github.com/Charmve/CppMaster/blob/master/网络/HTTP问题合集.md)
+#### [网络基础问题合集](https://github.com/Charmve/CppMaster/blob/master/计算机网络/网络基础问题合集.md)
+#### [HTTP问题合集](https://github.com/Charmve/CppMaster/blob/master/计算机网络/HTTP问题合集.md)
 
 [Index](#table-of-content)
 
@@ -588,6 +588,14 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 ## :rocket: 知识星球
 
 专为求职面试中算法与数据结构的小伙伴，创了学习交流/刷题群（知识星球）！想要最快的提升算法与数据结构技能，和更多小伙伴一起来吧！
+
+进群获取互联网大厂高频coding题库，告别刷题400道，分类整理的题库，算法思路和源代码实现配套，各个类型总结出来的解题模板，远比你一个人要强！
+
+<img src="./src/imgs/../../../../../../../../src/imgs/Top100.png" width="" alt="Click to see the more details">
+
+<img src="./src/imgs/../../../../../../../../src/imgs/解题模板.png" width="" alt="Click to see the more details">
+
+<img src="./src/imgs/../../../../../../../../src/imgs/Microsoft_Top100.png" width="" alt="Click to see the more details">
 
 <div align="center">
   <a href="https://github.com/Charmve/CppMaster">
