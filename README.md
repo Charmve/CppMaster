@@ -456,6 +456,10 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 <a id="interview-questions-experience"></a>
 
+## 自动驾驶系统架构级优化
+
+- [gPTP，自动驾驶时间同步里的“有趣灵魂”](https://mp.weixin.qq.com/s/8JWXjCqYmhR9_fxioWSXEQ)
+- [性能优化 | C++服务编译耗时优化原理及实践](https://segmentfault.com/a/1190000038453470)
 
 ## 📚 [书籍](./FreeEBooks)
 
