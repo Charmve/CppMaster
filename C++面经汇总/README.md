@@ -1,5 +1,9 @@
 <a id="interview-questions-experience"></a>
 
+## [:link: C++必会八股文](basic_cpp.md)
+
+<br>
+
 ## 📝 面试题目经验
 
 * [牛客网 . 2020秋招面经大汇总！（岗位划分）](https://www.nowcoder.com/discuss/205497)
@@ -21,3 +25,14 @@
 * [cnblogs . 常见C++面试题及基本知识点总结（一）](https://www.cnblogs.com/LUO77/p/5771237.html)
 * [segmentfault . C++常见面试问题总结](https://segmentfault.com/a/1190000003745529)
 
+
+## :bookmark: 我的专栏
+
+- [大厂后端/算法面经分类整理](https://blog.csdn.net/charmve/category_9622929.html)
+
+<br>
+
+打赏，
+
+<!--START_SECTION:sponsors-->
+<a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
