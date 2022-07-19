@@ -256,10 +256,13 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 <br>
 
 ## 高性能优化
-- 分析工具 gpertool、[profiling](https://zhuanlan.zhihu.com/p/362575905)
+
+主要聚焦在多线程（CPU）、内存（Memory）的优化上，以冯·诺依曼体系结构为参考。
+
+- 分析工具 [gpertool](https://github.com/gperftools/gperftools/)、[profiling](https://zhuanlan.zhihu.com/p/362575905)
 - 掌握多线程优化方法，熟悉基本的资源调度方法；
 
-### Xavier
+### Nvidia Xavier/Orin
 - [CUDA编程之快速入门](https://www.cnblogs.com/skyfsm/p/9673960.html)
 
 ## 高性能计算
@@ -267,6 +270,8 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 - CUDA 并行编程模型及常用优化方法，熟悉基于 TensorRT 编程方法；
 - 熟练掌握CUDA程序性能分析、问题定位及调试的能力，掌握对应 CUDA 工具的使用；
 - 熟悉 PTX/SASS，有编译优化经验；
+- [OpenCL & Cuda]()
+- 模型推理 TensorRT、ONNXRuntime
 
 [Index](#table-of-content)
 
@@ -325,11 +330,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 #### [进程和线程](https://github.com/Charmve/CppMaster/blob/master/操作系统/进程与线程问题合集.md)
 ##### 多线程/线程池
 ##### 时间轮转片
-##### 并行计算 GPU/NPU 
-- [OpenCL & Cuda]()
-- 
 ##### [Socket问题合集](https://github.com/Charmve/CppMaster/blob/master/计算机网络/Socket问题合集.md)
-
 
 ### Linux
 
@@ -365,6 +366,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 [Index](#table-of-content)
 
 ### 容器化技术
+
 - [Docker](https://vuepress.mirror.docker-practice.com/)
 - K8S
 
@@ -452,14 +454,16 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 <a href="https://charmve.github.io/sponsor.html" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
 
-<br>
-
 <a id="interview-questions-experience"></a>
 
 ## 自动驾驶系统架构级优化
 
 - [gPTP，自动驾驶时间同步里的“有趣灵魂”](https://mp.weixin.qq.com/s/8JWXjCqYmhR9_fxioWSXEQ)
+- [gRPC 基础概念详解](https://zhuanlan.zhihu.com/p/389328756), https://github.com/grpc/grpc/tree/master/src/cpp
+- [深入浅出eBPF｜你要了解的7个核心问题](https://developer.aliyun.com/article/947869?utm_content=m_1000346074)
 - [性能优化 | C++服务编译耗时优化原理及实践](https://segmentfault.com/a/1190000038453470)
+
+<br>
 
 ## 📚 [书籍](./FreeEBooks)
 
@@ -471,7 +475,7 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 [Index](#table-of-content)
 
-<br><br>
+<br>
 
 ## 职位要求
 (初级 -> 高级)
@@ -499,7 +503,7 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 ### 后台/服务器
 
-【后台开发】
+<details><summary>【后台开发】</summary>
 
 * 编程基本功扎实，掌握 C/C++/JAVA 等开发语言、常用算法和数据结构；
 * 熟悉 TCP/UDP 网络协议及相关编程、进程间通讯编程；
@@ -508,9 +512,11 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 * 全面、扎实的软件知识结构，掌握操作系统、软件工程、设计模式、数据结构、数据库系统、网络安全等专业知识；
 * 了解分布式系统设计与开发、负载均衡技术，系统容灾设计，高可用系统等知识。
 
+</details>
+
 ### 桌面客户端
 
-【PC 客户端开发】
+<details><summary>【PC 客户端开发】</summary>
 
 * 计算机软件相关专业本科或以上学历，热爱编程，基础扎实，理解算法和数据结构相关知识；  
 * 熟悉 windows 操作系统的内存管理、文件系统、进程线程调度； 
@@ -518,9 +524,11 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 * 熟练掌握 Windows 客户端开发、调试，有 Windows 应用软件开发经验优先；
 * 对于创新及解决具有挑战性的问题充满激情，具有良好的算法基础及系统分析能力。
 
+</details>
+
 ### 图形学/游戏/VR/AR
 
-【游戏客户端开发】
+<details><summary>【游戏客户端开发】</summary>
 
 * 计算机科学/工程相关专业本科或以上学历，热爱编程，基础扎实，理解算法、数据结构、软件设计相关知识；
 * 至少掌握一种游戏开发常用的编程语言，具 C++/C# 编程经验优先；
@@ -530,9 +538,11 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 * 具阅读英文技术文档能力；
 * 热爱游戏。
 
+</details>
+
 ### 测试开发
 
-【测试开发】
+<details><summary>【测试开发】</summary>
 
 * 计算机或相关专业本科及以上学历；
 * 一至两年的 C/C++/Python 或其他计算机语言的编程经验；
@@ -541,9 +551,11 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 * 具备定位调查产品缺陷能力、以及代码级别调试缺陷的能力；
 * 工作主动积极，有责任心，具有良好的团队合作精神。
 
+</details>
+
 ### 网络安全/逆向
 
-【安全技术】
+<details><summary>【安全技术】</summary>
 
 * 热爱互联网，对操作系统和网络安全有狂热的追求，专业不限；
 * 熟悉漏洞挖掘、网络安全攻防技术，了解常见黑客攻击手法；  
@@ -551,18 +563,22 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 * 对数据库、操作系统、网络原理有较好掌握；  
 * 具有软件逆向，网络安全攻防或安全系统开发经验者优先。
 
+</details>
+
 ### 嵌入式/物联网
 
-【嵌入式应用开发】
+<details><summary>【嵌入式应用开发】</summary>
 
 * 有良好的编程基础，熟练掌握 C/C++ 语言；
 * 掌握操作系统、数据结构等软件开发必备知识；
 * 具备较强的沟通理解能力及良好的团队合作意识；
 * 有 Linux/Android 系统平台的开发经验者优先。
 
+</details>
+
 ### 音视频/流媒体/SDK
 
-【音视频编解码】
+<details><summary>【音视频编解码】</summary>
 
 1. 硕士及以上学历，计算机、信号处理、数学、信息类及相关专业和方向； 
 2. 视频编解码基础扎实，熟常用的 HEVC 或 H264，有较好的数字信号处理基础； 
@@ -570,15 +586,18 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 4. 较强的英文文献阅读能力； 
 5. 学习能力强，具有团队协作精神，有较强的抗压能力。
 
+</details>
+
 ### 计算机视觉/机器学习
 
-【计算机视觉研究】
+<details><summary>【计算机视觉研究】</summary>
 
 * 计算机、应用数学、模式识别、人工智能、自控、统计学、运筹学、生物信息、物理学/量子计算、神经科学、社会学/心理学等专业，图像处理、模式识别、机器学习相关研究方向，本科及以上，博士优先；
 * 熟练掌握计算机视觉和图像处理相关的基本算法及应用；
 * 较强的算法实现能力，熟练掌握 C/C++ 编程，熟悉 Shell/Python/Matlab 至少一种编程语言；
 * 在计算机视觉、模式识别等学术会议或者期刊上发表论文、相关国际比赛获奖、及有相关专利者优先。
 
+</details>
 
 ## 📝 面试题目经验
 
