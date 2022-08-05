@@ -370,16 +370,14 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 - [Docker](https://vuepress.mirror.docker-practice.com/)
 - K8S
 
-### ARM x86
-
-[Index](#table-of-content)
-
-<br>
-
 ### 虚拟化技术
 - [Qemu]()
 - KVM
 - Hypervisor
+
+[Index](#table-of-content)
+
+### ARM x86
 
 [Index](#table-of-content)
 
@@ -388,6 +386,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 ### 缓存/并发技术
 
 - [Kafka](https://zhuanlan.zhihu.com/p/446774729)
+- Redis
 
 ## ☁️ 计算机网络
 
@@ -462,6 +461,8 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 - [gRPC 基础概念详解](https://zhuanlan.zhihu.com/p/389328756), https://github.com/grpc/grpc/tree/master/src/cpp
 - [深入浅出eBPF｜你要了解的7个核心问题](https://developer.aliyun.com/article/947869?utm_content=m_1000346074)
 - [性能优化 | C++服务编译耗时优化原理及实践](https://segmentfault.com/a/1190000038453470)
+- [在Linux中如何利用backtrace信息解决程序崩溃的问题](https://blog.csdn.net/gongmin856/article/details/79192259)
+- 性能分析工具：gPerf
 
 <br>
 
