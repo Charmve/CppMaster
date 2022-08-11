@@ -371,9 +371,12 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 - K8S
 
 ### 虚拟化技术
-- [Qemu]()
+- [Qemu](https://gitlab.com/qemu-project/qemu)
 - KVM
 - Hypervisor
+
+ref: [QEMU,KVM及QEMU-KVM介绍](https://www.cnblogs.com/gzxbkk/p/10116000.html)
+
 
 [Index](#table-of-content)
 
