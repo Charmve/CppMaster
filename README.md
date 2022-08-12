@@ -11,7 +11,7 @@
 		<img src="src/one-logo.jpg" width="36%" alt="Click to see the more details">
 	</a>
     <br>
-    <p>C++ Master Learning Roadmap</p>
+    <p>C++ Master Learning Roadmap <a href="https://charmve.github.io/CppMaster"><sup><i><b>Hot</b></i></sup></a></p>
     <p align="center" alt="CircleCI">
       <a href="">
         <img alt="Actions Status" src="https://github.com/danielbayerlein/dashboard/workflows/CI/badge.svg">
