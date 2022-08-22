@@ -46,11 +46,8 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 <br>
 
 ## Waking-Up
+
 > 大多数人都高估了他们一天能做的事情，但低估了他们一年能做的事情
-
-
-<br><a href=""><img align="right" alt="Go for it!" src="src/i_magic_box.png" height="260" title="Do what you like, and do it best!"/></a>
-
 
 <b><details><summary>💡 关于</summary></b>
 
@@ -64,6 +61,7 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 </details>
 
+<a href=""><img align="right" alt="Go for it!" src="src/i_magic_box.png" height="260" title="Do what you like, and do it best!"/></a>
 
 ### Table of Content
 
