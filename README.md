@@ -475,6 +475,10 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 > 更多免费电子书，<b>公众号：迈微AI研习社</b>回复 ``“电子书”`` ，可免费获取。
 
+![image](https://user-images.githubusercontent.com/29084184/190883883-6c6822ab-10c6-426a-8baf-8de2d58504d7.png)
+
+![image](https://user-images.githubusercontent.com/29084184/190883889-f6770e02-a285-4e92-be41-3dfda608c1a4.png)
+
 [Index](#table-of-content)
 
 <br>
