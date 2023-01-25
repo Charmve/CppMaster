@@ -1,42 +1,44 @@
-# Q 1.1 ★★☆ 文件系统的原理，特别是 inode 和 block
+# Q 1.1 ★★☆ File System
 
-## 文件系统的组成：
+## Components of File System：
 
-- inode：一个文件占用一个 inode，记录文件的属性，同时记录此文件的内容所在的 block 编号；
-- block：记录文件的内容，文件太大时，会占用多个 block。
+- inode: a file has an inode, which stores the metadata or information about the file, including the file's block number
+- block: a section of contiguous memory addresses that stores the file content. A file may require more than one block.
 
-除此之外还包括：
+- superblock: a collection of metadata storing information about the entire file system, e.g. the total number of inodes and blocks
+- block bitmap: a sequence of bits where each bit represents whether a specific block in use. Bit 0 means the block is free.
 
-- superblock：记录文件系统的整体信息，包括 inode 和 block 的总量、使用量、剩余量，以及文件系统的格式与相关信息等；
-- block bitmap：记录 block 是否被使用的位域。
 
-<div align="center"> <img src="https://gitee.com/CyC2018/CS-Notes/raw/master/docs/pics/BSD_disk.png" width="800"/> </div><br>
 
-## block
+## Block
 
-在 Ext2 文件系统中所支持的 block 大小有 1K，2K 及 4K 三种，不同的大小限制了单个文件和文件系统的最大大小。
+A block in Linux File System can be of size 1KiB, 2KiB or 4KiB. The size of a single block determines the capacity of the File System
 
-| 大小 | 1KB | 2KB | 4KB |
+| Size | 1KiB | 2KiB | 4KiB |
 | :---: | :---: | :---: | :---: |
-| 最大单一文件 | 16GB | 256GB | 2TB |
-| 最大文件系统 | 2TB | 8TB | 16TB |
+| Largest File | 16GiB | 256GiB | 2TiB |
+| Largest File System | 2TiB | 8TiB | 16TiB |
 
-一个 block 只能被一个文件所使用，未使用的部分直接浪费了。因此如果需要存储大量的小文件，那么最好选用比较小的 block。
+One block can only be used by one file. If a file cannot make use of the entire block, then the extra space is wasted.
 
-## inode
 
-inode 具体包含以下信息：
 
-- 权限 (read/write/excute)；
-- 拥有者与群组 (owner/group)；
-- 容量；
-- 建立或状态改变的时间 (ctime)；
-- 最近一次的读取时间 (atime)；
-- 最近修改的时间 (mtime)；
-- 定义文件特性的旗标 (flag)，如 SetUID...；
-- 该文件真正内容的指向 (pointer)。
+## Inode
 
-inode 具有以下特点：
+Inode contains the following information of a file:
+
+- Permissions (read/write/excute)；
+- Owner/group
+- Capacity of the file
+- Time of creation (ctime)；
+- Last access time (atime)；
+- Last modified time (mtime)；
+- Flag (e.g. SetUID...)
+- Pointer to the actual file
+
+
+
+Inode has the following properties:
 
 - 每个 inode 大小均固定为 128 bytes (新的 ext4 与 xfs 可设定到 256 bytes)；
 - 每个文件都仅会占用一个 inode。
@@ -103,13 +105,11 @@ printf("type = %d  code = %d  value = %d\n",
 close(fd);
 ```
 
-## 2.硬链接和软连接的区别与联系
+## 2.Hard link vs Symbolic link
 
-我们知道文件都有文件名与数据，这在 Linux 上被分成两个部分：用户数据 (user data) 与元数据 (metadata)。用户数据，即文件数据块 (data block)，数据块是记录文件真实内容的地方；而元数据则是文件的附加属性，如文件大小、创建时间、所有者等信息。在 Linux 中，元数据中的 inode 号（inode 是文件元数据的一部分但其并不包含文件名，inode 号即索引节点号）才是文件的唯一标识而非文件名。文件名仅是为了方便人们的记忆和使用，系统或程序通过 inode 号寻找正确的文件数据块。图 1.展示了程序通过文件名获取文件内容的过程。
+我们知道文件都有文件名与数据，这在 Linux 上被分成两个部分: user data and metadata。用户数据，即文件数据块 (data block)，数据块是记录文件真实内容的地方；而元数据则是文件的附加属性，如文件大小、创建时间、所有者等信息。在 Linux 中，元数据中的 inode 是文件元数据的一部分但其并不包含文件名，inode 号即索引节点号）才是文件的unique identifier而非文件名。文件名仅是为了方便人们的记忆和使用，系统或程序通过 inode 号寻找正确的文件数据块。图 1.展示了程序通过文件名获取文件内容的过程。
 
-图 1. 通过文件名打开文件
 
-<div align="center"> <img src="https://www.ibm.com/developerworks/cn/linux/l-cn-hardandsymb-links/image001.jpg" width="800"/> </div><br>
 
 清单 3. 移动或重命名文件
 
@@ -207,11 +207,10 @@ none           tmpfs      499006     15   498991    1% /run/shm
 - 可对不存在的文件或目录创建软链接；  
 - 软链接可交叉文件系统；  
 - 软链接可对文件或目录创建；  
-- 创建软链接时，链接计数 i_nlink 不会增加；  
-- 删除软链接并不影响被指向的文件，但若被指向的原文件被删除，则相关软连接被称为死链接（即 dangling link，若被指向路径文件被重新创建，死链接可恢复为正常的软链接）。  
+- i_nlink is not incremented when a symbolic link is created
+- Deleting a symbolic link does not delete the file. However if the file is deleted, then the symbolic link becomes a dangling link
 
-图 2. 软链接的访问  
-<div align="center"> <img src="https://www.ibm.com/developerworks/cn/linux/l-cn-hardandsymb-links/image002.jpg" width="800"/> </div><br>
+
 
 清单 7. 软链接特性展示
 
