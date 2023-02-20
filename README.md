@@ -115,6 +115,8 @@ The goal of this repo is to buid a advanced C++ programing tech stack for a high
 
 7、内存分区：全局区、堆区、栈区、常量区、代码区
 
+https://blog.csdn.net/m0_37202877/article/details/126243403
+
 8、C++与C的区别
 
 9、struct与class的区别
