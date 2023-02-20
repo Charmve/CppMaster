@@ -427,7 +427,7 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 
 <br>
 
-## 📏 [设计模式](./code/DesignPattern)
+## 📏 [设计模式](./算法库/DesignPattern)
 - [OOP设计和设计模式](https://blog.csdn.net/weixin_45748233/article/details/106808059)
 -
 [Index](#table-of-content)
