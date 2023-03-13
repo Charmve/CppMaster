@@ -255,12 +255,20 @@ https://blog.csdn.net/m0_37202877/article/details/126243403
 
 <br>
 
-## 高性能优化
+## 性能优化
+
+![image](https://user-images.githubusercontent.com/29084184/224635657-784120f2-1b4b-4044-9473-211843ba103c.png)
+
+from: https://www.brendangregg.com/ebpf.html
+
+https://cloud.tencent.com/developer/article/2134930
+
 
 主要聚焦在多线程（CPU）、内存（Memory）的优化上，以冯·诺依曼体系结构为参考。
 
 - 分析工具 [gpertool](https://github.com/gperftools/gperftools/)、[profiling](https://zhuanlan.zhihu.com/p/362575905)
 - 掌握多线程优化方法，熟悉基本的资源调度方法；
+
 
 ### Nvidia Xavier/Orin
 - [CUDA编程之快速入门](https://www.cnblogs.com/skyfsm/p/9673960.html)
@@ -343,9 +351,32 @@ https://blog.csdn.net/m0_37202877/article/details/126243403
 
 #### [vim](https://www.jianshu.com/p/fbb00627163c)
 
-#### git
+#### [git](https://github.com/Charmve/CppMaster/tree/main/Git)
+
+![image](https://user-images.githubusercontent.com/29084184/224634759-f74ba925-5b27-4128-91e0-6465875495bc.png)
+
+常用命令：
+
+1、执行命令git checkout br_rename_old   //切换到br_rename_old分支 （如果已经在这个分支下，可以不执行此步骤）
+
+2、执行命令git pull origin br_rename_old  //将代码更新到和远程仓库一致
+
+3、执行命令git branch -m br_rename_old br_rename_new  //将本地仓库的br_rename_old的名称修改为br_rename_new
+
+4、执行命令git push origin --delete br_rename_old  //将远程分支br_rename_old删除
+
+5、执行命令git push --set-upstream origin br_rename_new   //将本地分支push到远程仓库
+
+6、修改最近一次的commit信息 git commit --amend
+
+7、git cherry-pick <commitHash>
+
+8、更新子模块 git submodule update --init --recursive
+
+9、删除远程分支 git push origin --delete <branch_name>
 
 #### ⚙️ 编译、链接与调试
+
 - [链接问题合集](https://github.com/Charmve/CppMaster/blob/master/操作系统/链接问题合集.md)
   - [C语言调用so动态库的两种方式](https://blog.csdn.net/shaosunrise/article/details/81161064)
 - [Cmake](https://www.hahack.com/codes/cmake/) - [Makefile](https://www.jianshu.com/p/442e71755643)，[CMakeLists.txt](https://blog.csdn.net/shaosunrise/article/details/121103842)
