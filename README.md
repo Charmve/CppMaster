@@ -139,6 +139,8 @@ https://blog.csdn.net/m0_37202877/article/details/126243403
 
 17、虚函数实现动态多态的原理、虚函数与纯虚函数的区别
 
+https://johnysswlab.com/the-true-price-of-virtual-functions-in-c/
+
 18、继承时，父类的析构函数是否为虚函数？构造函数能不能为虚函数？为什么？
 
 19、静态多态：重写、重载、模板
@@ -266,9 +268,14 @@ https://cloud.tencent.com/developer/article/2134930
 
 主要聚焦在多线程（CPU）、内存（Memory）的优化上，以冯·诺依曼体系结构为参考。
 
-- 分析工具 [gpertool](https://github.com/gperftools/gperftools/)、[profiling](https://zhuanlan.zhihu.com/p/362575905)
+- 分析工具 [gpertool](https://github.com/gperftools/gperftools/) [profiling](https://gperftools.github.io/gperftools/cpuprofile.html)、[profiling](https://zhuanlan.zhihu.com/p/362575905)、[llvm-perf](https://releases.llvm.org/1.7/docs/CommandGuide/html/llvm-prof.html)
 - 掌握多线程优化方法，熟悉基本的资源调度方法；
 
+[coredump配置、产生、分析以及分析示例](https://www.cnblogs.com/arnoldlu/p/11160510.html)
+
+
+[深入理解 Cache 工作原理](https://www.modb.pro/db/153718)
+[CPU Cache 机制以及 Cache miss](https://www.cnblogs.com/jokerjason/p/10711022.html)
 
 ### Nvidia Xavier/Orin
 - [CUDA编程之快速入门](https://www.cnblogs.com/skyfsm/p/9673960.html)
@@ -383,6 +390,16 @@ https://cloud.tencent.com/developer/article/2134930
   - [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
 - [GDB/CGDB](https://www.jianshu.com/p/8d0278ae7e07)
 - [gtest](https://blog.csdn.net/linhai1028/article/details/81675724)
+
+- 构建框架
+  - cmake
+  - bazel [remote-cache](https://buildstream.gitlab.io/buildstream/arch_remote_execution.html) []()
+  - conon 
+- 编译器 
+  - clang
+  - gcc
+  - 对比 
+  - 交叉编译 https://clang.llvm.org/docs/CrossCompilation.html
 
 ##### [Shell/bash](https://www.runoob.com/linux/linux-shell.html)
 
@@ -643,6 +660,7 @@ Linux 下网络编程核心的包括<b>系统编程</b>和<b>网络 IO </b>两�
 - [docs/C++面经汇总](./C++面经汇总/basic_cpp.md)
 
 - [如果你是一个C++面试官，你会问哪些问题？](https://www.zhihu.com/question/451327108/answer/2359217596)
+- [基础排序和查询](https://blog.csdn.net/pange1991/article/details/85460755)
 - 我的专栏 [大厂后端/算法面经分类整理](https://blog.csdn.net/charmve/category_9622929.html)
 - [华为、美团、微软、字节、阿里、360 校招研发编程测试题及答案参考](https://blog.csdn.net/charmve/category_9622929.html)
 - [竞赛科创 | 电子信息创新设计项目实践](https://blog.csdn.net/charmve/category_9577245.html)
