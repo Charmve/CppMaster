@@ -142,7 +142,7 @@ https://blog.csdn.net/m0_37202877/article/details/126243403
 https://johnysswlab.com/the-true-price-of-virtual-functions-in-c/
 
 18、继承时，父类的析构函数是否为虚函数？构造函数能不能为虚函数？为什么？
-
+- [C++：虚函数的详解](https://developer.aliyun.com/article/363851)
 19、静态多态：重写、重载、模板
 
 20、static关键字：修饰局部变量、全局变量、类中成员变量、类中成员函数
