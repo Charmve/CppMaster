@@ -363,6 +363,17 @@ https://cloud.tencent.com/developer/article/2134930
 
 #### [git](https://github.com/Charmve/CppMaster/tree/main/Git)
 
+git原理：
+
+其本质上是一个key-value的数据库加上默克尔树形成的有向无环图（DAG）
+
+https://www.jiqizhixin.com/articles/2019-12-20
+
+![image](https://github.com/Charmve/CppMaster/assets/29084184/5d54f25a-1ecf-4556-a3eb-a7fab1d33859)
+
+
+常用使用方法：
+
 ![image](https://user-images.githubusercontent.com/29084184/224634759-f74ba925-5b27-4128-91e0-6465875495bc.png)
 
 常用命令：
