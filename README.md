@@ -301,6 +301,9 @@ https://cloud.tencent.com/developer/article/2134930
 
 2、线程同步的方式：互斥锁、自旋锁、读写锁、条件变量
 
+- 自旋锁：原理 [实现](https://github.com/freelancer-leon/notes/blob/master/kernel/lock/Lock-3-Linux_Semaphore.md)
+- 互斥锁：原理 [实现](https://github.com/freelancer-leon/notes/blob/master/kernel/lock/Lock-4-Linux_Mutex.md)
+
 3、互斥锁与自旋锁的底层区别
 
 4、孤儿进程与僵尸进程
