@@ -410,8 +410,8 @@ https://www.jiqizhixin.com/articles/2019-12-20
 
 - 构建框架
   - cmake
-  - bazel [remote-cache](https://buildstream.gitlab.io/buildstream/arch_remote_execution.html) []()
-  - conon 
+  - bazel [remote-cache](https://buildstream.gitlab.io/buildstream/arch_remote_execution.html) [Bazel学习记录](https://blog.gmem.cc/bazel-study-note)
+  - C++包管理器 conon 
 - 编译器 
   - clang
   - gcc
