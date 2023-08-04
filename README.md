@@ -405,7 +405,9 @@ https://www.jiqizhixin.com/articles/2019-12-20
   - [C语言调用so动态库的两种方式](https://blog.csdn.net/shaosunrise/article/details/81161064)
 - [Cmake](https://www.hahack.com/codes/cmake/) - [Makefile](https://www.jianshu.com/p/442e71755643)，[CMakeLists.txt](https://blog.csdn.net/shaosunrise/article/details/121103842)
   - [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
-- [GDB/CGDB](https://www.jianshu.com/p/8d0278ae7e07)
+- [GDB/CGDB]()
+  - [linux编程入门(七)-使用gdb调试程序](https://www.jianshu.com/p/8d0278ae7e07)
+  - [GDB调试入门指南](https://zhuanlan.zhihu.com/p/74897601)
 - [gtest](https://blog.csdn.net/linhai1028/article/details/81675724)
 
 - 构建框架
@@ -417,6 +419,7 @@ https://www.jiqizhixin.com/articles/2019-12-20
   - gcc
   - 对比 
   - 交叉编译 https://clang.llvm.org/docs/CrossCompilation.html
+  - 编译优化 autofdo、bolt、lto、Propeller
 
 ##### [Shell/bash](https://www.runoob.com/linux/linux-shell.html)
 
